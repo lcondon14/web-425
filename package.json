@@ -1,0 +1,19 @@
+{
+  "name": "web-425",
+  "version": "1.0.0",
+  "description": "Assignments for web-425",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcondon14/web-425.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcondon14/web-425/issues"
+  },
+  "homepage": "https://github.com/lcondon14/web-425#readme"
+}
