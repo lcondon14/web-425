@@ -1,0 +1,21 @@
+<!-- File: composer-list.component.html -->
+<!-- Author: Laurel Condon -->
+<!-- Date: 10/29/23 -->
+<!-- Description: HTML component for composer list -->
+
+<div class="container">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Full name</th>
+      <th>Genre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let composer of composers">
+      <td>{{ composer.fullName }}</td>
+      <td>{{ composer.genre }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
