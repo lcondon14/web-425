@@ -8,7 +8,7 @@
 import { Component, OnInit } from '@angular/core';
 
 // Exports Composer
-export default class Composer {
+export class Composer {
 
 	fullName: string;
 	genre: string;
