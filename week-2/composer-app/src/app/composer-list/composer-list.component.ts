@@ -1,13 +1,14 @@
-// File: composer-list.compontent.ts
+
+// File: composer-list.component.ts
 // Name: Laurel Condon
 // Date: 10/29/23
 // Description: TS for composer app
 
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 // Exports Composer
-export class Composer {
+export default class Composer {
 
 	fullName: string;
 	genre: string;
@@ -30,7 +31,7 @@ export class Composer {
 
 // Exports Composer list component
 
-export class ComposerListComponent {
+export class ComposerListComponent  {
   composers: Array<Composer>;
 
   constructor() {

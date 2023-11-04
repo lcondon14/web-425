@@ -1,13 +1,7 @@
-<!-- File: app.component.html -->
-<!-- Name: Laurel Condon -->
-<!-- Date: 10/29/23 -->
-<!-- Description: HTML file for composer app -->
-
-
-<nav class="navbar navbar-expand navbar-light bg-light">
-
+<!-- Nav links-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" routerLink="/composer-list">Composer List</a>
     </li>
     <li class="nav-item">
@@ -20,7 +14,19 @@
 </nav>
 
 <div class="container">
-<br />
+  <br /><br />
+<!-- Title -->
+  <h2>Assignment 2.4 Routing in Action</h2>
 
-<router-outlet></router-outlet>
+  <br /><br />
+  <div class="row">
+    <div class="col-sm-12">
+
+        <!-- Router Outlet-->
+        <div class="alert alert-success" role="alert">
+
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
 </div>

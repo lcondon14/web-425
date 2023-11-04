@@ -19,3 +19,4 @@ describe('ComposerListComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

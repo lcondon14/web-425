@@ -18,6 +18,8 @@
   "homepage": "https://github.com/lcondon14/web-425#readme",
   "dependencies": {
     "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "@angular/core": "10.0.0"
   }
+  
 }
