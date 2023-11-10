@@ -1,0 +1,29 @@
+<!-- File: composer-details.component.html -->
+<!-- Name: Laurel Condon -->
+<!-- Date: 11/4/23 -->
+<!-- Description: component for composer details -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Composer Details</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Composer ID:</strong> {{ composer.composerId }}
+        </li>
+        <li class="list-group-item">
+          <strong>Full Name:</strong> {{ composer.fullName }}
+        </li>
+        <li class="list-group-item">
+          <strong>Genre:</strong> {{ composer.genre }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <a routerLink="/composer-list" class="btn btn-primary">Return to Composers</a>
+    </div>
+  </div>
+</div>
+
