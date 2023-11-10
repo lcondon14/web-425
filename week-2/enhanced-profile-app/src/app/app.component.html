@@ -1,7 +1,9 @@
 <!-- File: app.component.html -->
-<!-- Author: Laurel Condon -->
-<!-- Date: 10/29/23 -->
-<!-- Description: HTML Component for enhanced app-->
+<!-- Name: Laurel Condon -->
+<!-- Date: 10/28/2023 -->
+<!-- Description: HTML component -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,25 +25,30 @@
       </ul>
     </div>
   </nav>
-<div class="container">
+<br />
+
 
 <h2>{{ assignment }}</h2>
 
+<div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-md-4">
       <app-my-image></app-my-image>
     </div>
-    <div class="col">
+    <div class="col-md-8">
       <app-my-details></app-my-details>
     </div>
   </div>
+</div>
+<div *ngIf="isLoggedIn; else showError">
+</div>
 <ng-template #showError>
   <div class="row">
-    <div class="col-12">
-      <div class="alert alert-danger">
-        You are not authorized to view this content
-      </div>
+    <div class="col-12 alert alert-danger">
+      You are not authorized to view this content.
     </div>
   </div>
 </ng-template>
-</div>
+
+
+
