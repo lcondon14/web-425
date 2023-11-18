@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/lcondon14/web-425#readme",
   "dependencies": {
+    "@angular/core": "10.0.0",
     "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
-    "@angular/core": "10.0.0"
+    "karma-jasmine-html-reporter": "^2.1.0"
   }
-  
 }
