@@ -1,3 +1,11 @@
+/**
+ * Title: base-layout.component.ts
+ * Author: Laurel Condon
+ * Date: 2 Dec 2023
+ * Description: base layout component
+ **/
+
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

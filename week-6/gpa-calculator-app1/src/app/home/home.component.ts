@@ -1,3 +1,10 @@
+/**
+ * Title: home.component.ts
+ * Author: Laurel Condon
+ * Date: 2 Dec 2023
+ * Description: home component
+ **/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

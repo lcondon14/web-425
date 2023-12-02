@@ -1,3 +1,10 @@
+/**
+ * Title: app.module.ts
+ * Author: Laurel Condon
+ * Date: 2 Dec 2023
+ * Description: app module
+ **/
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
