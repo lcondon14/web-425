@@ -1,0 +1,17 @@
+/**
+* Title: base layout css
+* Author: Laurel Condon
+* Date: 1 Dec 2023
+* Description: css file for base layout
+**/
+
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 80%;
+}
