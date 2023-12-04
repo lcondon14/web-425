@@ -30,7 +30,7 @@
             <mat-card-content>
               <mat-form-field fxFlex appearance="fill">
                 <mat-label for="txtStudentId" id="lblStudentId">Student Id</mat-label>
-                <input type="text" matInput formControlName="studentId" id="txtStudentId" name="txtStudentId" />
+                <input type="text" matInput formControlName="studentId" id="txtStudentId" name="txtStudentId" required />
                 <div *ngIf="form.studentId.errors && form.studentId.touched" class="error-message">
                   Student ID must be a numeric value.
                 </div>
