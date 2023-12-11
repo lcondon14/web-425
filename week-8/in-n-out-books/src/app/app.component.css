@@ -1,0 +1,17 @@
+/**
+  * Title: app.component.css
+  * Name: Laurel Condon
+  * Date: 16 Nov 2023
+  * Description: css styles for app component
+ **/
+
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

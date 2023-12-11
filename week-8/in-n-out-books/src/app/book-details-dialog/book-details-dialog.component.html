@@ -1,0 +1,21 @@
+<!-- Title: book-details-dialog.component.html  -->
+<!-- Name: Laurel Condon -->
+<!-- Date: 18 Nov 2023  -->
+<!-- Description: book details dialog component HTML -->
+
+<mat-card>
+  <mat-card-title class="blue">
+    {{ book.title }}
+    <br /><br />
+    <mat-card-content>
+      <div fxFlex="column">
+        <p>ISBN: {{ book.isbn }} </p>
+        <p>Description:<br /> {{ book.description }} </p>
+        <p>Authors:<br /> {{ book.authors.join(', ')}}</p>
+      </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="accent" matDialogClose="confirm">OK</button>
+      </mat-card-actions>
+      </mat-card-title>
+
